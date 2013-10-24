@@ -6,7 +6,6 @@ body, #slides {
 
 
 #slides{
-	border: 1px solid blue;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -15,20 +14,81 @@ body, #slides {
 .slide{
 	width: 100%;
 	height: 100%;
-	border: 1px solid red;
 	position: absolute;
 	display: none;
 }
-#slide-1{
+.background-img{
+	width: 100%;
+}
 
+#slide-1{
+  background: url(../img/hacker-town-hall/cat1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #slide-2{
-	background-color: red;
+  background: url(../img/hacker-town-hall/cat2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #slide-3{
-	background-color: blue;
+  background: url(../img/hacker-town-hall/cat3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #slide-4 {
-	background-color: yellow;
+  background: url(../img/hacker-town-hall/dog1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slide-5 {
+  background: url(../img/hacker-town-hall/chicks.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slide-6 {
+  background: url(../img/hacker-town-hall/hair-man.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slide-7 {
+  background: url(../img/hacker-town-hall/horse.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slide-8 {
+  background: url(../img/hacker-town-hall/pikacat.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slide-9 {
+  background: url(../img/hacker-town-hall/squirtle.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slide-10 {
+  background: url(../img/hacker-town-hall/sonic.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
